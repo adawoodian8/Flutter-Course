@@ -1,0 +1,51 @@
+// Session 2 Assig 
+void main(){
+// Assig 1 if condition (above 90 overweight, less than 70 thin, or normal)
+int weight= 95;
+
+if(weight>90)
+{
+    print('Over Weight');
+} else if (weight<70)
+{
+    print('Thin');
+} else
+{
+    print('Normal Weight');
+ }
+
+// Assig 2 print selected day
+// days would be selected from {Sun,Mon,Tue,Wed,Thu,Fri,Sat}
+var day = 'Sun';
+
+switch (day){
+
+case 'Sat':
+print('Today is Saturday');
+
+case 'Sun':
+print('Today is Sunday');
+
+case 'Mon':
+print('Today is Monday');
+
+case 'Tue':
+print('Today is Tuesday');
+
+case 'Wed':
+print('Today is Wednesday');
+
+case 'Thu':
+print('Today is Thursday');
+
+case 'Fri':
+print('Today is Friday');
+
+default:
+print('The day you entered is not right!');
+
+
+}
+
+
+}
